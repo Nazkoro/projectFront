@@ -35,6 +35,7 @@ module.exports = {
     },
     {
       files: ["*.component.html"],
+      //plugins: ["html"],
       extends: ["plugin:@angular-eslint/template/recommended"],
       rules: {
         "max-len": ["error", { "code": 140 }]
